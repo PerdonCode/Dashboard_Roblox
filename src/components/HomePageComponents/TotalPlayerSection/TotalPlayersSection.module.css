@@ -1,0 +1,41 @@
+/* TotalPlayersSection.module.css */
+
+.totalPlayersSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.totalPlayersSection h2 {
+  font-size: 50px;
+}
+
+.totalPlayers {
+  font-weight: bold;
+  font-size: 70px; /* Aangepaste grootte */
+  color: #007bff; /* Aangepaste tekstkleur */
+}
+
+.recordButton {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.recordButton button {
+  padding: 15px 30px; /* Aangepaste padding */
+  border: none;
+  border-radius: 6px; /* Aangepaste border-radius */
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px; /* Aangepaste grootte */
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.recordButton button:hover {
+  background-color: #0056b3;
+  transform: translateY(-3px); /* Verhoogde verticale verschuiving */
+}

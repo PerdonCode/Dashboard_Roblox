@@ -1,0 +1,57 @@
+.dashboardContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    background: whitesmoke;
+    height: 100%;
+  }
+  
+  .commentsSection,
+  .totalPlayersSection,
+  .topGamesSection {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .groupWallComments {
+    margin-top: 20px;
+  }
+  
+  .commentHeader {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .commentHeader img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .commentContent p {
+    margin-bottom: 5px;
+  }
+  
+  .totalPlayersSection p {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .topGamesSection ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .topGamesSection li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  

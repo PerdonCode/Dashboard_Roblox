@@ -1,0 +1,68 @@
+.commentsSection {
+  margin-top: 20px;
+  padding: 20px;
+  background: radial-gradient(#77b7fb, #68b0fd, #5f92c8);
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+  width: 20%;
+  margin-left: 60px;
+}
+
+.sectionTitle {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.commentList {
+  display: grid;
+  gap: 10px;
+}
+
+/* card component styling */
+.commentCard {
+  border: 1px solid #007bff;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.commentCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.commentHeader {
+  display: flex;
+  align-items: center;
+}
+
+.playerLogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.playerName {
+  font-weight: bold;
+  color: #333;
+  font-size: 30px;
+  margin-left: 10px;
+  
+}
+.commentContent{
+  margin-left: 10px;
+}
+.commentText {
+  margin-top: 10px;
+  color: #555;
+}
+
+.gameName {
+  color: #888;
+  margin-top: 10px;
+}
